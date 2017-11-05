@@ -1,21 +1,21 @@
 package A1;
 
-import java.io.IOException;  //×¢ÒâÕâ¸öÁË...¼ÇÒ»¼Ç
+import java.io.IOException;  //æ³¨æ„è¿™ä¸ªäº†...è®°ä¸€è®°
 import java.io.PrintWriter;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
-public class A1_File_IO { //·ÃÎÊÈ¨ÏŞ_Àà_Ãû×Ö
+public class A1_File_IO { //è®¿é—®æƒé™_ç±»_åå­—
 
-	public static final double PI=3.1415926; //public:¶ÔËùÓĞÀà¿ª·Å , Àà³£Á¿:¸ÃÀàËùÓĞ·½·¨¿ÉÓÃ
+	public static final double PI=3.1415926; //public:å¯¹æ‰€æœ‰ç±»å¼€æ”¾ , ç±»å¸¸é‡:è¯¥ç±»æ‰€æœ‰æ–¹æ³•å¯ç”¨
 	
-	public static void main (String[] args) throws IOException//ÎÄ¼şIO±Ø±¸Òì³£
-											//·ÃÎÊÈ¨ÏŞ_µ÷ÓÃÄ£Ê½_·µ»ØÖµ_Ãû×Ö_²ÎÊı
-										   //static·½·¨¿ÉÍ¨¹ıÀàÃû.·½·¨Ãû()µÄ·½Ê½µ÷ÓÃ,¶ø²»ĞèÒª¶ÔÏó
-										   //main±ØĞëpublic£¬ÊäÈëStringÊı×é 
+	public static void main (String[] args) throws IOException//æ–‡ä»¶IOå¿…å¤‡å¼‚å¸¸
+											//è®¿é—®æƒé™_è°ƒç”¨æ¨¡å¼_è¿”å›å€¼_åå­—_å‚æ•°
+										   //staticæ–¹æ³•å¯é€šè¿‡ç±»å.æ–¹æ³•å()çš„æ–¹å¼è°ƒç”¨,è€Œä¸éœ€è¦å¯¹è±¡
+										   //mainå¿…é¡»publicï¼Œè¾“å…¥Stringæ•°ç»„ 
 	{
 	
-			//ÎÄ¼şÊäÈëÊä³ö
+			//æ–‡ä»¶è¾“å…¥è¾“å‡º
 			Scanner in=new Scanner(Paths.get("src\\A1\\other.txt"),"UTF-8");
 			String a=in.next();
 			System.out.println(a);
@@ -26,7 +26,6 @@ public class A1_File_IO { //·ÃÎÊÈ¨ÏŞ_Àà_Ãû×Ö
 			in.close();
 			out.close();
 	}
-	
 	
 	
 	
